@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 3px solid rgb(0, 255, 0);
+  background: rgba(172, 255, 47, 0.1);
+}
+body{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+li{
+  list-style: none;
+  font-size: 14px;
+}
+p{
+  font-size: 12px;
+}

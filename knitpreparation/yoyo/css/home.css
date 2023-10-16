@@ -1,0 +1,119 @@
+nav {
+  background: transparent;
+  width: 100%;
+  height: fit-content;
+  position: fixed;
+  transition: 750ms ease-in-out;
+}
+nav:hover {
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 75px 75px rgba(0, 0, 0, 0.25);
+}
+nav:hover .nav-bar {
+  backdrop-filter: blur(1.5px);
+}
+.nav-bar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-box {
+  width: 3%;
+  min-width: fit-content;
+}
+.menu-img {
+  width: 20px;
+  height: 20px;
+}
+/* .logo {
+} */
+.logo-img {
+  width: 280px;
+  /* width: 100%; */
+}
+
+.empty-box {
+  width: 20%;
+}
+
+.search-bar {
+  width: 30%;
+  min-width: 200px;
+  padding-top: 20px;
+}
+.search-box {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 32px;
+  background: white;
+  border: 1px solid black;
+}
+.search {
+  text-transform: uppercase;
+  margin-right: 20px;
+}
+
+/* .pages-box {
+} */
+.inner-margin {
+  display: flex;
+}
+.pages {
+  margin-left: 30px;
+}
+.pages-text {
+  text-transform: uppercase;
+}
+.s-bag {
+  text-align: end;
+  display: block;
+  min-width: 120px;
+}
+
+/* secondary nav-bar */
+.categories-nav {
+  width: 85%;
+  margin: auto;
+}
+.category-items {
+  display: flex;
+  padding-bottom: 25px;
+}
+.c-item {
+  padding-right: 25px;
+  text-transform: uppercase;
+}
+
+/* main started */
+/* main {
+  outline: 1px solid rgb(98, 0, 255);
+} */
+.con {
+  height: 100vh;
+  /* background: linear-gradient(to bottom, #6190e8, #ffffff); */
+  /* background-image: url("/images/lambo.jpg"); */
+  background-image: url("https://static.zara.net/photos///contents/mkt/spots/aw23-north-woman-coats/subhome-xmedia-39//w/1920/IMAGE-landscape-fill-140d7d33-c7e8-48f1-b547-c72214bab504-default_0.jpg?ts=1695828860087");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* color: white; */
+  display: flex;
+  align-items: center;
+}
+.con1 {
+  height: 100vh;
+  /* background: linear-gradient(to bottom, #ffffff, #6190e8); */
+  /* background-image: url("/images/lambo2.jpg"); */
+  background-image: url("https://static.zara.net/photos///contents/mkt/spots/aw23-north-woman-collection/subhome-xmedia-39-2//w/1920/IMAGE-landscape-fill-8b279250-dcbe-4c6e-9de9-9337ca0c27f5-default_0.jpg?ts=1695829174593");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* color: white; */
+  display: flex;
+  align-items: center;
+}
+.hi {
+  width: 80%;
+  margin: auto;
+}

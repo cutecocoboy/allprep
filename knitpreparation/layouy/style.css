@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.con {
+  background: red;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.incon {
+  /* height: 300px; */
+  /* width: 500px; */
+  background: lime;
+  outline: 2px solid black;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "name name wishlist"
+    "price price .";
+}
+.div {
+  background-color: violet;
+  height: 50px;
+  /* width: 50px; */
+  border: 2px solid black;
+  /* padding: 20px; */
+  /* margin: 20px; */
+}
+.div1 {
+  grid-area: name;
+}
+.div2 {
+  grid-area: price;
+}
+.div2 {
+  grid-area: wishlist;
+}

@@ -1,0 +1,72 @@
+/* this is for main section  */
+main {
+  background: pink;
+  height: 150vh;
+}
+.container {
+  height: 100vh;
+}
+.small-container {
+  /* background: cyan; */
+  /* height: 50vh; */
+  width: 82%;
+  margin: auto;
+  position: relative;
+  top: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+}
+
+.heading4 {
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/* login box  */
+
+.login-box {
+  /* height: 30vh; */
+  width: 35%;
+  min-width: 300px;
+}
+
+.login-form {
+  /* background: rgb(255, 174, 0); */
+}
+
+.login-form {
+}
+.login-input-box {
+  position: relative;
+  margin-bottom: 30px;
+}
+.login-label {
+  text-transform: uppercase;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  width: 100%;
+  color: black;
+  transition: all 0.5s;
+  cursor: text;
+}
+.login-input {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid black;
+}
+.login-input:focus ~ .login-label,
+.login-input:valid ~ .login-label {
+  font-size: 10px;
+  top: -20px;
+  color: red;
+}
+
+/* register box */
+.register-box {
+  width: 35%;
+}

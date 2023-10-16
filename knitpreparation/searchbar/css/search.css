@@ -1,0 +1,146 @@
+nav {
+  /* background: transparent; */
+  background: white;
+  width: 100%;
+  height: fit-content;
+  position: fixed;
+  transition: 750ms ease-in-out;
+}
+nav:hover {
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 75px 75px rgba(0, 0, 0, 0.25);
+}
+nav:hover .nav-bar {
+  backdrop-filter: blur(1.5px);
+}
+.nav-bar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-box {
+  width: 3%;
+  min-width: fit-content;
+}
+.menu-img {
+  width: 20px;
+  height: 20px;
+}
+/* .logo {
+} */
+.logo-img {
+  width: 280px;
+  /* width: 100%; */
+}
+
+.empty-box {
+  width: 20%;
+}
+
+/* search box */
+.search-bar {
+  width: 30%;
+  min-width: 200px;
+  padding-top: 20px;
+}
+/* .search-box {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 32px;
+  background: white;
+  border: 1px solid black;
+}
+.search {
+  text-transform: uppercase;
+  margin-right: 20px;
+  font-size: 18px;
+} */
+
+/* .pages-box {
+} */
+.inner-margin {
+  display: flex;
+}
+.pages {
+  margin-left: 30px;
+}
+.pages-text {
+  text-transform: uppercase;
+}
+.s-bag {
+  text-align: end;
+  display: block;
+  min-width: 120px;
+}
+
+/* main started */
+main {
+  /* background: lime; */
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-con {
+  padding: 12% 0;
+  width: 100%;
+}
+
+/* search here */
+#search-here {
+  width: 100vw;
+
+  /* background: red; */
+  outline: none;
+  color: rgb(153, 153, 153);
+  border: none;
+  padding: 1.5% 4%;
+  text-transform: uppercase;
+  border: 1px solid black;
+}
+#search-here::placeholder {
+  /* text-transform: uppercase; */
+  color: rgb(153, 153, 153);
+}
+#search-here:focus::placeholder {
+  color: transparent;
+}
+
+/* info div  */
+.info-div {
+  width: 100vw;
+  background: red;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding-top: 7%;
+}
+.info {
+  padding: 2% 4%;
+  /* text-align: end; */
+  /* font-size: 15px; */
+  text-transform: uppercase;
+}
+
+/* making products grid */
+.suggested-products-box {
+  height: 300vh;
+  display: flex;
+}
+.suggested-product {
+  /* width: 14%; */
+  background: red;
+  /* height: 400px; */
+  border: 1px solid black;
+}
+/* .suggested-product{
+  height: 50vh;
+  width:50vw;
+  background: red;
+} */
+.product-img {
+  width: 100%;
+  background-image: url("https://static.zara.net/photos///2023/I/2/2/p/0210/002/999/2/w/563/0210002999_6_1_1.jpg?ts=1693822195517");
+}

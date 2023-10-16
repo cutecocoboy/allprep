@@ -1,0 +1,21 @@
+main{
+  /* height:; */
+
+}
+.con{
+  padding: 20px;
+  display: flex;
+
+}
+.div1{
+  width: 20%;
+}
+.div2{
+  width: 20%;
+}
+.div3{
+  width: 20%;
+}
+.empty{
+  width: 20%;
+}

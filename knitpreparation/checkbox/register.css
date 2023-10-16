@@ -1,0 +1,153 @@
+/* this is for main section  */
+
+main {
+  background: rgb(2, 2, 2);
+  height: 150vh;
+}
+.container {
+  /* height: 100vh; */
+  background: darkred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.small-container {
+  /* background: cyan; */
+  padding: 10% 0;
+  /* height: 50vh; */
+  width: 82%;
+  margin: auto;
+  /* position: relative; */
+  /* top: 18%; */
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10%;
+}
+
+.heading4 {
+  font-weight: 400;
+  text-transform: uppercase;
+  padding: 10px 0;
+  font-size: 18px;
+}
+/* register box  */
+
+#telephone::-webkit-inner-spin-button {
+  display: none;
+}
+.register-box {
+  /* height: 30vh; */
+  width: 34%;
+  min-width: 300px;
+}
+
+.register-input-box {
+  position: relative;
+  margin-top: 35px;
+}
+.register-label {
+  font-size: 15px;
+  text-transform: uppercase;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  width: 100%;
+  color: rgb(153, 153, 153);
+  transition: all 0.3s;
+  cursor: text;
+}
+.register-input {
+  font-size: 18px;
+  width: 100%;
+  border: 0;
+  outline: 0;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid rgb(153, 153, 153);
+  background: transparent;
+}
+.register-input:focus ~ .register-label,
+.register-input:valid ~ .register-label {
+  font-size: 13px;
+  top: -14px;
+  /* color: black; */
+  color: rgb(153, 153, 153);
+}
+
+.info {
+  padding: 25px 0 15px 0;
+  font-size: 14px;
+}
+
+
+
+.register-btn {
+  text-transform: uppercase;
+  padding: 0.5rem 0;
+  width: 100%;
+  background: white;
+  outline: none;
+  border: 1px solid black;
+  cursor: pointer;
+  margin-top: 60px;
+  font-size: 15px;
+}
+
+.terms-a{
+  text-decoration: underline;
+}
+
+
+/* checkbox */
+
+.check-box {
+  padding-top: 30px;
+}
+
+.check-label {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 20px;
+}
+
+#news,
+#terms {
+  position: absolute;
+  opacity: 0;
+}
+.check-sign {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 2px solid black;
+  transition: all 0.3s;
+}
+
+.check-label #news:checked ~ .check-sign,
+.check-label #terms:checked ~ .check-sign {
+  background: black;
+}
+
+.check-sign::after{
+  content: "";
+  width: 3.5px;
+  height: 10px;
+  position: absolute;
+  top: 1px;
+  left: 4px;
+  display: none;
+  border: solid white;
+  border-width: 0 2.5px 2.5px 0;
+  transform: rotate(45deg);
+}
+
+.check-label #news:checked ~ .check-sign::after,
+.check-label #terms:checked ~ .check-sign:after {
+  /* background: black; */
+  display: block;
+}
+

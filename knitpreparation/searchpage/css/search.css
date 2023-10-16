@@ -1,0 +1,144 @@
+nav {
+  background: transparent;
+  width: 100%;
+  height: fit-content;
+  position: fixed;
+  transition: 750ms ease-in-out;
+}
+nav:hover {
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 75px 75px rgba(0, 0, 0, 0.25);
+}
+nav:hover .nav-bar {
+  backdrop-filter: blur(1.5px);
+}
+.nav-bar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-box {
+  width: 3%;
+  min-width: fit-content;
+}
+.menu-img {
+  width: 20px;
+  height: 20px;
+}
+/* .logo {
+} */
+.logo-img {
+  width: 280px;
+  /* width: 100%; */
+}
+
+.empty-box {
+  width: 20%;
+}
+
+
+/* search box */
+.search-bar {
+  width: 30%;
+  min-width: 200px;
+  padding-top: 20px;
+}
+/* .search-box {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 32px;
+  background: white;
+  border: 1px solid black;
+}
+.search {
+  text-transform: uppercase;
+  margin-right: 20px;
+  font-size: 18px;
+} */
+
+/* .pages-box {
+} */
+.inner-margin {
+  display: flex;
+}
+.pages {
+  margin-left: 30px;
+}
+.pages-text {
+  text-transform: uppercase;
+}
+.s-bag {
+  text-align: end;
+  display: block;
+  min-width: 120px;
+}
+
+/* main started */
+main {
+  outline: 1px solid rgb(98, 0, 255);
+  /* height: 150vh; */
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  /* background-color: rgb(117, 117, 117); */
+}
+.inner-con{
+  padding: 10% 0;
+  /* background: pink; */
+  /* height: 20px; */
+  width: 100%;
+
+}
+
+.suggested-products-box{
+background: red;
+display: flex;
+flex-wrap: wrap;
+}
+.suggested-product{
+width: 16.666667%;
+outline: 1px solid black;
+}
+.first-div{
+  font-size: 0;
+}
+.s-product-img{
+
+  width: 100%;
+}
+.second-div{
+  background: white;
+  border-top: 1px solid black;
+
+  display: grid;
+  align-items: baseline;
+  
+/* display: f; */
+padding: 8px 8px 24px;
+}
+.product-nameandprice{
+display: flex;
+justify-content: start;
+align-items: center;
+flex-direction: column;
+}
+.product-name{
+  display: flex;
+}
+.price{
+
+}
+.wishlist{
+
+}
+.wishlist-img{
+width: 20px;
+height: 20px;
+}
+/* .hoohoo{
+  display: hidden;
+} */

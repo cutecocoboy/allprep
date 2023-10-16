@@ -1,0 +1,52 @@
+main {
+  background: violet;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inner-con {
+  padding: 12% 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.suggested-products-box {
+  display: flex;
+  flex-wrap: wrap;
+  outline: 1px solid black;
+  background: lime;
+}
+.suggested-product {
+  outline: 1px solid black;
+  width: 16.666667%;
+}
+.product-img {
+  background-image: url("https://static.zara.net/photos///2023/I/0/2/p/8281/404/800/2/w/224/8281404800_6_1_1.jpg?ts=1692862508904");
+  height: 300px;
+  width: 100%;
+  /* size: co; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-grow: 1;
+}
+.suggested-product-info {
+  border-top: 1px solid black;
+  padding: 8px 8px 24px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  /* background: red; */
+}
+.suggested-product-name-a:hover {
+  text-decoration: underline;
+}
+.wishlist {
+  height: 25px;
+  width: 22px;
+}

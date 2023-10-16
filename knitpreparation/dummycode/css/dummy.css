@@ -1,0 +1,103 @@
+nav {
+  background: transparent;
+  width: 100%;
+  height: fit-content;
+  position: fixed;
+  transition: 750ms ease-in-out;
+}
+nav:hover {
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 75px 75px rgba(0, 0, 0, 0.25);
+}
+nav:hover .nav-bar {
+  backdrop-filter: blur(1.5px);
+}
+.nav-bar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.menu-box {
+  width: 3%;
+  min-width: fit-content;
+}
+.menu-img {
+  width: 20px;
+  height: 20px;
+}
+/* .logo {
+} */
+.logo-img {
+  width: 280px;
+  /* width: 100%; */
+}
+
+.empty-box {
+  width: 20%;
+}
+
+.search-bar {
+  width: 30%;
+  min-width: 200px;
+  padding-top: 20px;
+}
+.search-box {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 32px;
+  background: white;
+  border: 1px solid black;
+}
+.search {
+  text-transform: uppercase;
+  margin-right: 20px;
+  font-size: 18px;
+}
+
+/* .pages-box {
+} */
+.inner-margin {
+  display: flex;
+}
+.pages {
+  margin-left: 30px;
+}
+.pages-text {
+  text-transform: uppercase;
+}
+.s-bag {
+  text-align: end;
+  display: block;
+  min-width: 120px;
+}
+
+/* secondary nav-bar */
+.categories-nav {
+  width: 88%;
+  margin: auto;
+}
+.category-items {
+  display: flex;
+  padding-bottom: 25px;
+}
+.c-item {
+  padding-right: 25px;
+  text-transform: uppercase;
+}
+
+/* main started */
+/* this is for main section  */
+
+/* main {
+  background: rgb(2, 2, 2);
+  height: 150vh;
+} */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.small-container {
+  padding: 10% 0;
+}
